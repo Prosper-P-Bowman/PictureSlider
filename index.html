@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caption Slider</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="caption.js"></script>
+</head>
+<body>
+    <section class="captionSliders">
+        <div class="captionSlider">
+            <div class="numbering">1 / 3</div>
+            <img src="./pic/love3.jpg" alt="">
+            <div class="text">Caption One</div>
+        </div>
+        <div class="captionSlider">
+            <div class="numbering">2 / 3</div>
+            <img src="./pic/love2.jpg" alt="">
+            <div class="text">Caption Two</div>
+        </div>
+        <div class="captionSlider">
+            <div class="numbering">3 / 3</div>
+            <img src="./pic/love5.jpg" alt="">
+            <div class="text">Caption Three</div>
+        </div>
+        
+
+    </section>
+    
+    <a class="prev" onclick="sliderPrev()">❮</a>
+    <a class="next" onclick="sliderNext()">❯</a>
+
+
+    <div class="dots">
+        <span class="dot" onclick="Sliders(1)"></span>
+        <span class="dot" onclick="Sliders(2)"></span>
+        <span class="dot" onclick="Sliders(3)"></span>
+    </div>
+</body>
+</html>
